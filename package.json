@@ -1,0 +1,40 @@
+{
+  "name": "pi-dent-skills",
+  "version": "0.1.0",
+  "description": "Generic development skills and commands for pi: specs, docs, tests, repository setup",
+  "keywords": [
+    "pi-package",
+    "skills"
+  ],
+  "license": "MIT",
+  "author": "Chris B <dralban68@protonmail.com>",
+  "homepage": "https://github.com/dralban68/pi-dent-skills#readme",
+  "bugs": "https://github.com/dralban68/pi-dent-skills/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dralban68/pi-dent-skills.git"
+  },
+  "type": "module",
+  "files": [
+    "skills/",
+    "commands/",
+    "context.md",
+    "plugin.json",
+    "scripts/repo-audit.ts"
+  ],
+  "packageManager": "pnpm@12.18.0",
+  "engines": {
+    "node": ">=26"
+  },
+  "scripts": {
+    "test": "node --test --test-timeout=30000 scripts/"
+  },
+  "devDependencies": {
+    "yaml": "^2.9.1"
+  },
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
+}

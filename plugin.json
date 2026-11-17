@@ -1,0 +1,5 @@
+{
+  "name": "dx",
+  "description": "Generic development plugin: shared skills, commands, scripts and an always-on context.",
+  "version": "0.1.0"
+}
